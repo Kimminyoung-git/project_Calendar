@@ -1,0 +1,38 @@
+@import
+   url('https://fonts.googleapis.com/css2?family=Orbit&display=swap');
+
+@import
+   url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+   
+#calendar {
+           max-width: 900px;
+           margin: 0 auto;
+           max-height: calc(100% - 70px);
+           font-family: "Orbit", sans-serif;
+           /*background-color: aliceblue;   달력 영역 배경색 */
+           margin-top: 40px;
+       }
+
+
+	   /* 요일 셀 배경도 aliceblue로 설정 */
+	   .fc-head {
+	       background-color: aliceblue;  /* 요일 셀 배경 */
+	   }
+	   
+       /* FullCalendar의 그리드 부분 배경을 aliceblue로 변경 */
+       .fc-day {
+           background-color: aliceblue;  /* 그리드 셀 배경색을 aliceblue로 설정 */
+       }
+
+       /* 오늘 날짜 배경색을 변경 (선택사항) */
+       .fc-day.fc-day-today {
+           background-color: #d3d3d3;  /* 오늘 날짜는 연한 회색 */
+       }
+
+	   /* 일요일만 빨간색 글씨로 변경 */
+	   .fc-sun {
+	       color: red;
+	       font-weight: bold; /* 글씨를 좀 더 굵게 */
+	   }
+	   
+		
